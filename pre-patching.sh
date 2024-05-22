@@ -2,7 +2,7 @@
 echo -e "\nDate & Time Information:" >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt"
 date >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 
-echo -e "\n<ounted Filesystems:" >>/home/shyam/"$(date + "%d-%m-%y").txt"
+echo -e "\n<ounted Filesystems:" >>/home/shyam/"precheck$(date + "%d-%m-%y").txt"
 df -Th >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 
 echo -e "\nBlockIDs Information:" >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt"
