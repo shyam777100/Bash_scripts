@@ -16,3 +16,11 @@ lsblk >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 
 echo -e "\nVolume Groups Information:">>/home/shyam/"precheck_$(date + "%d-%m-%y").txt"
 vgdisply >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
+
+# verify the script
+# cat pre-patching.sh
+
+#Apply the execute permission on the script
+# chmod +x pre-patching.sh
+# ececute the script
+# ./pre-patching.sh
