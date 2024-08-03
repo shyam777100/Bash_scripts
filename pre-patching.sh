@@ -2,7 +2,7 @@
 echo -e "\nDate & Time Information:" >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt"
 date >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 
-echo -e "\n<ounted Filesystems:" >>/home/shyam/"precheck$(date + "%d-%m-%y").txt"
+echo -e "\n<mounted Filesystems:" >>/home/shyam/"precheck$(date + "%d-%m-%y").txt"
 df -Th >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 
 echo -e "\nBlockIDs Information:" >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt"
@@ -24,3 +24,4 @@ vgdisply >>/home/shyam/"precheck_$(date + "%d-%m-%y").txt" 2>&1
 # chmod +x pre-patching.sh
 # ececute the script
 # ./pre-patching.sh
+# please use this for pre patching

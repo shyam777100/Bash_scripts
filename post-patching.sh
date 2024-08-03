@@ -2,7 +2,7 @@
 echo -e "\nDate & Time Information:" >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt"
 date >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt" 2>&1
 
-echo -e "\n<ounted Filesystems:" >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt"
+echo -e "\n<mounted Filesystems:" >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt"
 df -Th >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt" 2>&1
 
 echo -e "\nBlockIDs Information:" >>/home/shyam/"postcheck_$(date + "%d-%m-%y").txt"
