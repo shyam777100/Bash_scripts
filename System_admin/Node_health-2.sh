@@ -6,9 +6,9 @@
 #
 # This script outputs the node health
 #
-#Version: v2
+#Version: v2-debug mode
 #######################
-set -x #debug mode
+set -x 
 
 df -h
 
